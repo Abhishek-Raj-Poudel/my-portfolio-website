@@ -1,44 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-		rel="stylesheet">
-
-	<link rel="stylesheet" href="/style.css" />
-	<title>Portfolio Website</title>
-</head>
-
-<body class="font-primary bg-stone-900 text-stone-300">
-	<header class="flex justify-between max-w-screen-xl mx-auto p-5">
-		<h1 class="group font-extrabold text-xl cursor-pointer text-orange-400">Abhi<span
-				class="hover:animate-bounce">shek</span></h1>
-		<nav class="flex items-center gap-3 ">
+{{> header}}
+<main>
+<div class="flex flex-col justify-between max-w-screen-xl mx-auto p-5 py-20 border-b-2 border-b-[#212121]">
+	<div class=" w-fit space-y-5 ">
+		<div class="pb-3 border-b border-dashed border-stone-700">
+			<h2 class="flex items-center gap-2 text-2xl text-stone-300">
+				Abhishek
 			<div class="size-1.5 bg-stone-800 rotate-45 "></div>
-			<a class="font-medium text-lg hover:text-orange-400 duration-500 " href="/">Journals</a>
+				Raj
 			<div class="size-1.5 bg-stone-800 rotate-45 "></div>
-			<a class="font-medium text-lg hover:text-orange-400 duration-500 " href="/">Projects</a>
-			<div class="size-1.5 bg-stone-800 rotate-45 "></div>
-			<a class="font-medium text-lg hover:text-orange-400 duration-500 " href="/">Work</a>
-			<div class="size-1.5 bg-stone-800 rotate-45 "></div>
-			<a class="font-medium text-lg hover:text-orange-400 duration-500 " href="/">Contact</a>
-		</nav>
-	</header>
-	<main>
-
-		<div
-			class="flex flex-col justify-between max-w-screen-xl mx-auto p-5 py-20 border-b-2 border-b-[#212121]">
-			<div class=" w-fit space-y-5 ">
-				<div class="pb-3 border-b border-dashed border-stone-700">
-					<h2 class="flex items-center gap-2 text-2xl text-stone-300">Abhishek<div
-							class="size-1.5 bg-stone-800 rotate-45 "></div>Raj<div
-							class="size-1.5 bg-stone-800 rotate-45 "></div>Poudel</h2>
-				</div>
+				Poudel
+			</h2>
+		</div>
 
 				<div class="flex items-center gap-2">
 					<div class="size-1.5 bg-stone-800 rotate-45 "></div> <span
@@ -141,6 +113,4 @@
 
 
 	</main>
-</body>
-
-</html>
+{{> footer}}
