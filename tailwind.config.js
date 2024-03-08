@@ -9,7 +9,8 @@ module.exports = {
         "body": "#4C566A"
       },
       fontFamily: {
-        primary: ["JetBrains Mono"]
+        primary: ["JetBrains Mono"],
+        title: ["Megrim"]
       }
     },
   },

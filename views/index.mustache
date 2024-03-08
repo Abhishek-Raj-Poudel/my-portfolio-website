@@ -1,0 +1,39 @@
+{{> header}}
+<main class="max-w-screen-md mx-auto">
+{{! hero section }}
+ {{> index/heroSection }}
+ {{> index/aboutUsSection}}
+
+<section class="grid gap-5 py-10 text-stone-400 ">
+	<div class="font-title text-5xl font-extrabold pb-3 border-b-2 border-dashed border-stone-600 mb-3">
+		<h2 class="flex items-center gap-2 text-stone-400 tracking-widest">
+           My Journal 
+        </h2>
+	</div>
+	<p>Place where I put things I have learned. May be helpful for future me.</p>
+	<div class="grid grid-cols-2 gap-4" >
+		<div class="flex flex-col justify-between gap-2 text-stone-400 space-y-4 p-4 border-2 border-dashed border-stone-600 rounded">
+			<div class="flex flex-col gap-2" >
+				<h3>This is how the topic will look</h3>		
+				<p>This will be excerpt for a certain topic</p>
+			</div>
+
+				<a href="#">Read about it --></a>		
+		</div>
+		<div class="flex flex-col justify-between gap-2 text-stone-400 space-y-4 p-4 border-2 border-dashed border-stone-600 rounded">
+			<div class="flex flex-col gap-2" >
+				<h3>This is how the topic no 2 will look</h3>		
+				<p>This will be excerpt for the certain topic</p>
+			</div>
+
+				<a href="#">Read about it --></a>		
+		</div>
+	</div>	
+
+	<a href="/about" class="w-fit bg-stone-300 text-stone-800 p-2 px-4 rounded hover:ring-2 hover:ring-stone-300 hover:text-stone-300 hover:bg-stone-800 duration-300">
+	    See all Blogs 
+	</a>
+</section>
+
+</main>
+{{> footer}}

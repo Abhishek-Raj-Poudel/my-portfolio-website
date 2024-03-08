@@ -1,0 +1,30 @@
+<section class="grid gap-5 py-10">
+	<div class="font-title text-5xl font-extrabold pb-3 border-b-2 border-dashed border-stone-600 mb-3">
+		<h2 class="flex items-center gap-2 text-stone-400 tracking-widest">
+            About Me
+        </h2>
+	</div>
+	<p class="flex flex-wrap gap-2 text-stone-400 leading-[28px]" >
+	I am a Front-end Developer currently working at <span> <a href="https://infinitydevelopmententerprise.com/" target="__blank" class=" rounded-sm w-fit text-stone-300 flex items-baseline gap-1 cursor-pointer font-bold hover:text-black bg-[length:0%_100%] bg-[0%_100%] bg-no-repeat bg-gradient-to-b from-stone-300 to-stone-300 hover:bg-[length:100%_100%]  duration-300 ">
+                    IDE 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link">
+                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                        <polyline points="15 3 21 3 21 9"></polyline>
+                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                </a></span> since April 2022. My aspiration is to transition into a Full Stack Developer role to expand my skills and contribute more comprehensively to projects	
+	</p>
+	<div class="text-stone-400 space-y-4 p-4 border-2 border-dashed border-stone-600 rounded  w-1/2 ">
+		<p>Here are some relivant information you might want to know</p>	
+		<div class="flex items-center gap-2 w-fit">
+			<span class="text-stone-300  ">Experience</span> : <span>+2 years</span>
+		</div>
+
+<div class="flex items-start gap-2 w-fit">
+			<span class="text-stone-300  ">Skills</span> : <span class="flex items-center flex-wrap"> {{# skills}} <span>{{.}}, </span> {{/ skills}} </span>
+		</div>
+	</div>
+	<a href="/about" class="w-fit bg-stone-300 text-stone-800 p-2 px-4 rounded hover:ring-2 hover:ring-stone-300 hover:text-stone-300 hover:bg-stone-800 duration-300">
+        About Us
+    </a>
+</section>
