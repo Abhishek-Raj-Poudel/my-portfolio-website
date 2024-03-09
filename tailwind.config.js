@@ -10,7 +10,7 @@ module.exports = {
       },
       fontFamily: {
         primary: ["JetBrains Mono"],
-        title: ["Megrim"]
+        title: ["Forum"]
       }
     },
   },
